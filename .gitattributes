@@ -1,3 +1,4 @@
 * text=auto !eol
-svncmd/git/svncmd--Scripts.sync_all.bat -text
-svncmd/git/svncmd_git.sync_all.bat -text
+_svncmd/svncmd--Scripts_gh.sync_all.bat -text
+_svncmd/svncmd_gh.sync_all.bat -text
+_svncmd/svncmd_sf.update_all.bat -text
