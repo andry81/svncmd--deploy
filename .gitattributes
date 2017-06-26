@@ -1,4 +1,12 @@
 * text=auto !eol
+_svncmd/configure.bat -text
+_svncmd/svncmd--Scripts_gh.init.bat -text
+_svncmd/svncmd--Scripts_gh.pull_all.bat -text
+_svncmd/svncmd--Scripts_gh.reset_all.bat -text
 _svncmd/svncmd--Scripts_gh.sync_all.bat -text
+_svncmd/svncmd_gh.init.bat -text
+_svncmd/svncmd_gh.pull_all.bat -text
+_svncmd/svncmd_gh.reset_all.bat -text
 _svncmd/svncmd_gh.sync_all.bat -text
+_svncmd/svncmd_sf.checkout_all.bat -text
 _svncmd/svncmd_sf.update_all.bat -text
