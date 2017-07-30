@@ -9,7 +9,7 @@ setlocal
   echo set "GIT.USER=user"
   echo set "GIT.EMAIL=user@mail.com"
   echo.
-  echo set "SVNCMD_ROOT.SVN.REPOROOT=https://svn.code.sf.net/p/svncmd/scripts/trunk"
+  echo set "SVNCMD_ROOT.SVN.REPOROOT=https://svn.code.sf.net/p/svncmd/scripts"
   echo.
   echo set "SVNCMD_ROOT.GIT.ORIGIN=https://github.com/%%GIT.REPO_OWNER%%/svncmd.git"
   echo set "SVNCMD_SCRIPTS.GIT.ORIGIN=https://github.com/%%GIT.REPO_OWNER%%/svncmd--Scripts.git"
