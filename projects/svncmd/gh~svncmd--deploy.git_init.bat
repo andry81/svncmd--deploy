@@ -25,7 +25,7 @@ set "STDERR_FILE_TMP=%TEMP_FILE_OUTTER_DIR%\stderr.txt"
 
 rem create temporary files to store local context output
 if exist "%TEMP_FILE_OUTTER_DIR%\" (
-  echo.%?~n0%: error: temporary generated directory TEMP_FILE_OUTTER_DIR is already exist: "%TEMP_FILE_OUTTER_DIR%"
+  echo.%?~nx0%: error: temporary generated directory TEMP_FILE_OUTTER_DIR is already exist: "%TEMP_FILE_OUTTER_DIR%"
   exit /b -255
 ) >&2
 
@@ -60,13 +60,15 @@ if not exist "%~dp0%WCROOT%\.git" ( call :CMD git init "%%~dp0%%WCROOT%%" %%* ||
 
 pushd "%~dp0%WCROOT%" && (
   rem reinit git svn
-  call :GIT_SVN_INIT "%%SVNCMD_ROOT.SVN.REPOROOT%%/trunk/Scripts" || ( popd & goto EXIT )
+  call :GIT_SVN_INIT "%%SVNCMD_DEPLOY.SVN.REPOROOT%%" || ( popd & goto EXIT )
 
   call :CMD git config user.name "%%GIT.USER%%" || ( popd & goto EXIT )
   call :CMD git config user.email "%%GIT.EMAIL%%" || ( popd & goto EXIT )
+
   (
-    git remote get-url origin > nul 2> nul && call :CMD git remote set-url origin "%%SVNCMD_SCRIPTS.GIT.ORIGIN%%"
-  ) || call :CMD git remote add origin "%%SVNCMD_SCRIPTS.GIT.ORIGIN%%" || ( popd & goto EXIT )
+    git remote get-url origin > nul 2> nul && call :CMD git remote set-url origin "%%SVNCMD_DEPLOY.GIT.ORIGIN%%"
+  ) || call :CMD git remote add origin "%%SVNCMD_DEPLOY.GIT.ORIGIN%%" || ( popd & goto EXIT )
+
   popd
 )
 

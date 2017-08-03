@@ -25,10 +25,8 @@ if "%NEST_LVL%" == "" set NEST_LVL=0
 
 set /A NEST_LVL+=1
 
-pushd "%~dp0%WCROOT%" && (
-  call :CMD git reset %%* || ( popd & goto EXIT )
-  popd
-)
+if not exist "%~dp0%WCROOT%\" mkdir "%~dp0%WCROOT%"
+if not exist "%~dp0%WCROOT%\.svn" ( call :CMD svn co "%%SVNCMD_DEPLOY.SVN.REPOROOT%%/trunk" "%%~dp0%%WCROOT%%" || goto EXIT )
 
 :EXIT
 set /A NEST_LVL-=1

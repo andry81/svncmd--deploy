@@ -26,7 +26,13 @@ if "%NEST_LVL%" == "" set NEST_LVL=0
 set /A NEST_LVL+=1
 
 pushd "%~dp0%WCROOT%" && (
-  call :CMD git reset %%* || ( popd & goto EXIT )
+  rem check ref on existance
+  git ls-remote -h --exit-code "%SVNCMD_DEPLOY.GIT2.ORIGIN%" master > nul && (
+    call :CMD git pull origin master || ( popd & goto EXIT )
+  )
+  call :CMD git svn fetch || ( popd & goto EXIT )
+  call :CMD git svn rebase || ( popd & goto EXIT )
+  call :CMD git push origin master || ( popd & goto EXIT )
   popd
 )
 
