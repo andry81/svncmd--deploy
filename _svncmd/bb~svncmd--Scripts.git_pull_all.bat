@@ -3,12 +3,12 @@
 setlocal
 
 rem extract name of sync directory from name of the script
-set "?~nx0=%~nx0"
+set "?~n0=%~n0"
 
-set "WCROOT_SUFFIX=%?~nx0:*.=%"
+set "WCROOT_SUFFIX=%?~n0:*.=%"
 
-set "WCROOT=%?~nx0%."
-if "%WCROOT_SUFFIX%" == "%?~nx0%" goto IGNORE_WCROOT_SUFFIX
+set "WCROOT=%?~n0%."
+if "%WCROOT_SUFFIX%" == "%?~n0%" goto IGNORE_WCROOT_SUFFIX
 call set "WCROOT=%%WCROOT:.%WCROOT_SUFFIX%.=%%"
 
 :IGNORE_WCROOT_SUFFIX
@@ -20,9 +20,6 @@ set /A NEST_LVL+=1
 
 pushd "%~dp0%WCROOT%" && (
   call :CMD git pull origin master %%* || ( popd & goto EXIT )
-  call :CMD git subtree pull --prefix=Scripts scripts master || ( popd & goto EXIT )
-  call :CMD git subtree pull --prefix=Tools --squash tools master || ( popd & goto EXIT )
-  call :CMD git subtree pull --prefix=ToolsExternal --squash external-tools master || ( popd & goto EXIT )
   popd
 )
 
