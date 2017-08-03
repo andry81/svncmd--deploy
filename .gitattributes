@@ -1,4 +1,5 @@
 * text=auto !eol
+projects/svncmd/README_EN.txt -text
 projects/svncmd/bb~svncmd--Scripts.git_fetch.bat -text
 projects/svncmd/bb~svncmd--Scripts.git_init.bat -text
 projects/svncmd/bb~svncmd--Scripts.git_pull_all.bat -text
