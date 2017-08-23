@@ -1,1 +1,5 @@
+projects/svncmd/Scripts/configure.user.bat
 projects/svncmd/configure.user.bat
+projects/svncmd/configureex.user.bat
+projects/svncmd/deploy/configure.user.bat
+projects/svncmd/svncmd/configure.user.bat
