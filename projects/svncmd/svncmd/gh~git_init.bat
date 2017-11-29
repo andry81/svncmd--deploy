@@ -33,7 +33,7 @@ set "STDERR_FILE_TMP=%TEMP_FILE_OUTTER_DIR%\stderr.txt"
 
 rem create temporary files to store local context output
 if exist "%TEMP_FILE_OUTTER_DIR%\" (
-  echo.%?~n0%: error: temporary generated directory TEMP_FILE_OUTTER_DIR is already exist: "%TEMP_FILE_OUTTER_DIR%"
+  echo.%?~nx0%: error: temporary generated directory TEMP_FILE_OUTTER_DIR is already exist: "%TEMP_FILE_OUTTER_DIR%"
   exit /b -255
 ) >&2
 
