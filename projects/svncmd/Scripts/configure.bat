@@ -11,7 +11,6 @@ set /A NEST_LVL+=1
 (
   echo.@echo off
   echo.
-  rem echo.set "SVN.WCROOT_DIR=sf~Scripts"
   echo.set "GIT.WCROOT_DIR=gh~svncmd--Scripts"
   echo.set "GIT2.WCROOT_DIR=bb~svncmd--Scripts"
   echo.

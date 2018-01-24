@@ -12,7 +12,6 @@ projects/svncmd/Scripts/gh~git_reset_all.bat -text
 projects/svncmd/Scripts/gh~svn_to_git_fetch.bat -text
 projects/svncmd/Scripts/gh~svn_to_git_sync_all.bat -text
 projects/svncmd/configure.bat -text
-projects/svncmd/configureex.bat -text
 projects/svncmd/deploy/bb~git_init.bat -text
 projects/svncmd/deploy/bb~git_pull_all.bat -text
 projects/svncmd/deploy/bb~git_reset_all.bat -text
