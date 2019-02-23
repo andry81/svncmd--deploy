@@ -11,9 +11,9 @@ set /A NEST_LVL+=1
 (
   echo.@echo off
   echo.
-  echo.set "SVN.WCROOT_DIR=sf~svncmd"
-  echo.set "GIT.WCROOT_DIR=gh~svncmd"
-  echo.set "GIT2.WCROOT_DIR=bb~svncmd"
+  echo.set "SVN.WCROOT_DIR=sf~svn~svncmd"
+  echo.set "GIT.WCROOT_DIR=gh~git~svncmd"
+  echo.set "GIT2.WCROOT_DIR=bb~git~svncmd"
   echo.
 ) > "%~dp0configure.user.bat"
 
