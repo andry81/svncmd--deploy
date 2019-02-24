@@ -1,5 +1,6 @@
 * text=auto !eol
 projects/svncmd/README_EN.txt -text
+projects/svncmd/Scripts/__init__.bat -text
 projects/svncmd/Scripts/bb~git_init.bat -text
 projects/svncmd/Scripts/bb~git_pull_all.bat -text
 projects/svncmd/Scripts/bb~git_reset_all.bat -text
@@ -11,7 +12,9 @@ projects/svncmd/Scripts/gh~git_pull_all.bat -text
 projects/svncmd/Scripts/gh~git_reset_all.bat -text
 projects/svncmd/Scripts/gh~git~svn_fetch.bat -text
 projects/svncmd/Scripts/gh~git~svn_sync_all.bat -text
+projects/svncmd/__init__.bat -text
 projects/svncmd/configure.bat -text
+projects/svncmd/deploy/__init__.bat -text
 projects/svncmd/deploy/bb~git_init.bat -text
 projects/svncmd/deploy/bb~git_pull_all.bat -text
 projects/svncmd/deploy/bb~git_reset_all.bat -text
@@ -25,6 +28,7 @@ projects/svncmd/deploy/gh~git~svn_fetch.bat -text
 projects/svncmd/deploy/gh~git~svn_sync_all.bat -text
 projects/svncmd/deploy/sf~svn~checkout_all.bat -text
 projects/svncmd/deploy/sf~svn~update_all.bat -text
+projects/svncmd/svncmd/__init__.bat -text
 projects/svncmd/svncmd/bb~git_init.bat -text
 projects/svncmd/svncmd/bb~git_pull_all.bat -text
 projects/svncmd/svncmd/bb~git_reset_all.bat -text
