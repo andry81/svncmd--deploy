@@ -1,0 +1,5 @@
+"GIT.WCROOT_DIR=gh~git~svncmd--Scripts"
+"GIT2.WCROOT_DIR=bb~git~svncmd--Scripts"
+
+GIT.GIT_SVN_INIT_CMDLINE="%SVNCMD_ROOT.SVN.REPOROOT%/trunk/Scripts"
+GIT2.GIT_SVN_INIT_CMDLINE="%SVNCMD_ROOT.SVN.REPOROOT%/trunk/Scripts"

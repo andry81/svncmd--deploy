@@ -12,7 +12,7 @@ set /A NEST_LVL+=1
   echo.@echo off
   echo.
   echo.set PROJECT_NAME=svncmd
-  echo.set "WCROOT_OFFSET=../../../../_%%PROJECT_NAME%%"
+  echo.set "WCROOT_OFFSET=%%CONFIGURE_ROOT%%/../../_%%PROJECT_NAME%%"
   echo.
   echo.set "SVNCMD_ROOT.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/svncmd/scripts"
   echo.set "SVNCMD_DEPLOY.SVN.REPOROOT=https://%%SVN.HUB_ROOT%%/svncmd/deploy"

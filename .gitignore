@@ -1,5 +1,8 @@
-projects/svncmd/Scripts/configure.user.bat
+projects/svncmd/Scripts/*.lst
+projects/svncmd/Scripts/*.vars
 projects/svncmd/configure.user.bat
 projects/svncmd/configure_private.user.bat
-projects/svncmd/deploy/configure.user.bat
-projects/svncmd/svncmd/configure.user.bat
+projects/svncmd/deploy/*.lst
+projects/svncmd/deploy/*.vars
+projects/svncmd/svncmd/*.lst
+projects/svncmd/svncmd/*.vars
