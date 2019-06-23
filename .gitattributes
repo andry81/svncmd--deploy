@@ -15,6 +15,7 @@ projects/svncmd/Scripts/gh~git~svn_fetch.bat -text
 projects/svncmd/Scripts/gh~git~sync_svn_to_git.bat -text
 projects/svncmd/Scripts/repos.lst.in -text
 projects/svncmd/__init__.bat -text
+projects/svncmd/config.vars.in -text
 projects/svncmd/configure.bat -text
 projects/svncmd/deploy/__init__.bat -text
 projects/svncmd/deploy/bb~git~init.bat -text
