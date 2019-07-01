@@ -2,10 +2,13 @@ projects/svncmd/*.vars
 projects/svncmd/.log
 projects/svncmd/Scripts/*.lst
 projects/svncmd/Scripts/*.vars
+projects/svncmd/Scripts/*.yaml
 projects/svncmd/Scripts/.log
 projects/svncmd/deploy/*.lst
 projects/svncmd/deploy/*.vars
+projects/svncmd/deploy/*.yaml
 projects/svncmd/deploy/.log
 projects/svncmd/svncmd/*.lst
 projects/svncmd/svncmd/*.vars
+projects/svncmd/svncmd/*.yaml
 projects/svncmd/svncmd/.log
