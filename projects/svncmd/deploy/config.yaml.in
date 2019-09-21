@@ -1,0 +1,10 @@
+SVN.REPOROOT:               ${SVNCMD_DEPLOY.SVN.REPOROOT}
+
+SVN.WCROOT_DIR:             sf~svn~svncmd--deploy
+GIT.WCROOT_DIR:             gh~git~svncmd--deploy
+GIT2.WCROOT_DIR:            bb~git~svncmd--deploy
+
+GIT.GIT_SVN_INIT_CMDLINE:   [--stdlayout]
+GIT2.GIT_SVN_INIT_CMDLINE:  [--stdlayout]
+
+SVN.CHECKOUT_URL:           ${SVNCMD_DEPLOY.SVN.REPOROOT}/trunk

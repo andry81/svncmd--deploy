@@ -1,4 +1,6 @@
+projects/svncmd/*.lst
 projects/svncmd/*.vars
+projects/svncmd/*.yaml
 projects/svncmd/.log
 projects/svncmd/Scripts/*.lst
 projects/svncmd/Scripts/*.vars
