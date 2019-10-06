@@ -1,5 +1,3 @@
-SVN.REPOROOT:               ${SVNCMD_ROOT.SVN.REPOROOT}
-
 SVN.WCROOT_DIR:             sf~svn~svncmd
 GIT.WCROOT_DIR:             gh~git~svncmd
 GIT2.WCROOT_DIR:            bb~git~svncmd
