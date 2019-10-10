@@ -1,10 +1,10 @@
-# <scm_token>|<branch_type>|<remote_name>|<parent_remote_name>|<git_reporoot>|<svn_reporoot>|<local_branch>|<remote_branch>|<parent_git_path_prefix>|<svn_path_prefix>|<git_remote_add_cmdline>|<git_subtree_cmdline>
-GIT|root|origin|.|${SVNCMD_ROOT.GIT.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|trunk|.|.
-GIT|subtree|scripts|origin|${SVNCMD_SCRIPTS.GIT.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|trunk/Scripts|.|.
-GIT|subtree|tools|origin|${SVNCMD_TOOLS.GIT.ORIGIN}|CONTOOLS_ROOT.SVN.REPOROOT|master|master|Tools|trunk/Tools|.|--squash
-GIT|subtree|external-tools|origin|${EXTERNAL_TOOLS.GIT.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|trunk/ToolsExternal|.|--squash
+# <scm_token>|<branch_type>|<remote_name>|<parent_remote_name>|<git_reporoot>|<svn_reporoot>|<local_branch>|<remote_branch>|<parent_git_path_prefix>|<svn_path_prefix>|<git_svn_init_cmdline>|<git_remote_add_cmdline>|<parent_git_subtree_cmdline>|<git_subtree_cmdline>
+GIT|root|origin|.|${SVNCMD_ROOT.GIT.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.|.|.
+GIT|subtree|scripts|origin|${SVNCMD_SCRIPTS.GIT.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|trunk/Scripts|--stdlayout|.|--squash|.
+GIT|subtree|tools|origin|${SVNCMD_TOOLS.GIT.ORIGIN}|CONTOOLS_ROOT.SVN.REPOROOT|master|master|Tools|trunk/Tools|--stdlayout|.|--squash|.
+GIT|subtree|external-tools|origin|${EXTERNAL_TOOLS.GIT.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|trunk/ToolsExternal|--stdlayout|.|--squash|.
 
-GIT2|root|origin|.|${SVNCMD_ROOT.GIT2.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|trunk|.|.
-GIT2|subtree|scripts|origin|${SVNCMD_SCRIPTS.GIT2.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|trunk/Scripts|.|.
-GIT2|subtree|tools|origin|${SVNCMD_TOOLS.GIT2.ORIGIN}|${CONTOOLS_ROOT.SVN.REPOROOT}|master|master|Tools|trunk/Tools|.|--squash
-GIT2|subtree|external-tools|origin|${EXTERNAL_TOOLS.GIT2.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|trunk/ToolsExternal|.|--squash
+GIT2|root|origin|.|${SVNCMD_ROOT.GIT2.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.|.|.
+GIT2|subtree|scripts|origin|${SVNCMD_SCRIPTS.GIT2.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|trunk/Scripts|--stdlayout|.|--squash|.
+GIT2|subtree|tools|origin|${SVNCMD_TOOLS.GIT2.ORIGIN}|${CONTOOLS_ROOT.SVN.REPOROOT}|master|master|Tools|trunk/Tools|--stdlayout|.|--squash|.
+GIT2|subtree|external-tools|origin|${EXTERNAL_TOOLS.GIT2.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|trunk/ToolsExternal|--stdlayout|.|--squash|.
