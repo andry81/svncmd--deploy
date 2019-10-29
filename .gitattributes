@@ -35,6 +35,7 @@ projects/svncmd/deploy/gh~git~push_svn_to_git.bat -text
 projects/svncmd/deploy/gh~git~reset.bat -text
 projects/svncmd/deploy/git_repos.lst.in -text
 projects/svncmd/deploy/sf~svn~checkout.bat -text
+projects/svncmd/deploy/sf~svn~relocate.bat -text
 projects/svncmd/deploy/sf~svn~update.bat -text
 projects/svncmd/svncmd/__init__.bat -text
 projects/svncmd/svncmd/bb~git~fetch.bat -text
@@ -52,4 +53,5 @@ projects/svncmd/svncmd/gh~git~push_svn_to_git.bat -text
 projects/svncmd/svncmd/gh~git~reset.bat -text
 projects/svncmd/svncmd/git_repos.lst.in -text
 projects/svncmd/svncmd/sf~svn~checkout.bat -text
+projects/svncmd/svncmd/sf~svn~relocate.bat -text
 projects/svncmd/svncmd/sf~svn~update.bat -text

@@ -1,10 +1,10 @@
 PROJECT_NAME:                 svncmd
 WCROOT_OFFSET:                ${env:CONFIGURE_ROOT:path}/../../_${PROJECT_NAME}
 
-SVNCMD_ROOT.SVN.REPOROOT:     https://${SVN.HUB_ROOT}/svncmd/scripts
-SVNCMD_DEPLOY.SVN.REPOROOT:   https://${SVN.HUB_ROOT}/svncmd/deploy
+SVNCMD_ROOT.SVN.REPOROOT:     svn+ssh://${SVN.HUB_ROOT}/svncmd/scripts
+SVNCMD_DEPLOY.SVN.REPOROOT:   svn+ssh://${SVN.HUB_ROOT}/svncmd/deploy
 
-CONTOOLS_ROOT.SVN.REPOROOT:   https://${SVN.HUB_ROOT}/contools/contools
+CONTOOLS_ROOT.SVN.REPOROOT:   svn+ssh://${SVN.HUB_ROOT}/contools/contools
 
 SVNCMD_DEPLOY.GIT.ORIGIN:     https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd--deploy.git
 SVNCMD_ROOT.GIT.ORIGIN:       https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd.git
