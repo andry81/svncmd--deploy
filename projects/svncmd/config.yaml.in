@@ -1,5 +1,5 @@
 PROJECT_NAME:                 svncmd
-WCROOT_OFFSET:                ${env:CONFIGURE_ROOT:path}/../../_${PROJECT_NAME}
+WCROOT_OFFSET:                ${CONFIGURE_ROOT}/../../_${PROJECT_NAME}
 
 SVNCMD_ROOT.SVN.REPOROOT:     svn+ssh://${SVN.HUB_ROOT}/svncmd/scripts
 SVNCMD_DEPLOY.SVN.REPOROOT:   svn+ssh://${SVN.HUB_ROOT}/svncmd/deploy
