@@ -6,14 +6,14 @@ SVNCMD_DEPLOY.SVN.REPOROOT:   svn+ssh://${SVN.HUB_ROOT}/svncmd/deploy
 
 CONTOOLS_ROOT.SVN.REPOROOT:   svn+ssh://${SVN.HUB_ROOT}/contools/contools
 
-SVNCMD_DEPLOY.GIT.ORIGIN:     https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd--deploy.git
-SVNCMD_ROOT.GIT.ORIGIN:       https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd.git
-SVNCMD_SCRIPTS.GIT.ORIGIN:    https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd--Scripts.git
-SVNCMD_TOOLS.GIT.ORIGIN:      https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/contools--Tools.git
-EXTERNAL_TOOLS.GIT.ORIGIN:    https://${GIT.USER}@${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/external_tools.git
+SVNCMD_DEPLOY.GIT.ORIGIN:     https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd--deploy.git
+SVNCMD_ROOT.GIT.ORIGIN:       https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd.git
+SVNCMD_SCRIPTS.GIT.ORIGIN:    https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/svncmd--Scripts.git
+SVNCMD_TOOLS.GIT.ORIGIN:      https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/contools--Tools.git
+EXTERNAL_TOOLS.GIT.ORIGIN:    https://${GIT.HUB_ROOT}/${GIT.REPO_OWNER}/external_tools.git
 
-SVNCMD_DEPLOY.GIT2.ORIGIN:    https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/svncmd-deploy.git
-SVNCMD_ROOT.GIT2.ORIGIN:      https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/svncmd.git
-SVNCMD_SCRIPTS.GIT2.ORIGIN:   https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/svncmd-scripts.git
-SVNCMD_TOOLS.GIT2.ORIGIN:     https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/contools-tools.git
-EXTERNAL_TOOLS.GIT2.ORIGIN:   https://${GIT2.USER}@${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/external_tools.git
+SVNCMD_DEPLOY.GIT2.ORIGIN:    https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/svncmd-deploy.git
+SVNCMD_ROOT.GIT2.ORIGIN:      https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/svncmd.git
+SVNCMD_SCRIPTS.GIT2.ORIGIN:   https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/svncmd-scripts.git
+SVNCMD_TOOLS.GIT2.ORIGIN:     https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/contools-tools.git
+EXTERNAL_TOOLS.GIT2.ORIGIN:   https://${GIT2.HUB_ROOT}/${GIT2.REPO_OWNER}/external_tools.git
