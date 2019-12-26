@@ -1,6 +1,7 @@
 * text=auto !eol
 projects/svncmd/README_EN.txt -text
 projects/svncmd/Scripts/__init__.bat -text
+projects/svncmd/Scripts/bb~git~compare_commits.bat -text
 projects/svncmd/Scripts/bb~git~fetch.bat -text
 projects/svncmd/Scripts/bb~git~init.bat -text
 projects/svncmd/Scripts/bb~git~pull.bat -text
@@ -9,6 +10,7 @@ projects/svncmd/Scripts/bb~git~reset.bat -text
 projects/svncmd/Scripts/config.vars.in -text
 projects/svncmd/Scripts/config.yaml.in -text
 projects/svncmd/Scripts/configure.bat -text
+projects/svncmd/Scripts/gh~git~compare_commits.bat -text
 projects/svncmd/Scripts/gh~git~fetch.bat -text
 projects/svncmd/Scripts/gh~git~init.bat -text
 projects/svncmd/Scripts/gh~git~pull.bat -text
@@ -20,6 +22,7 @@ projects/svncmd/config.vars.in -text
 projects/svncmd/config.yaml.in -text
 projects/svncmd/configure.bat -text
 projects/svncmd/deploy/__init__.bat -text
+projects/svncmd/deploy/bb~git~compare_commits.bat -text
 projects/svncmd/deploy/bb~git~fetch.bat -text
 projects/svncmd/deploy/bb~git~init.bat -text
 projects/svncmd/deploy/bb~git~pull.bat -text
@@ -28,6 +31,7 @@ projects/svncmd/deploy/bb~git~reset.bat -text
 projects/svncmd/deploy/config.vars.in -text
 projects/svncmd/deploy/config.yaml.in -text
 projects/svncmd/deploy/configure.bat -text
+projects/svncmd/deploy/gh~git~compare_commits.bat -text
 projects/svncmd/deploy/gh~git~fetch.bat -text
 projects/svncmd/deploy/gh~git~init.bat -text
 projects/svncmd/deploy/gh~git~pull.bat -text
@@ -38,6 +42,7 @@ projects/svncmd/deploy/sf~svn~checkout.bat -text
 projects/svncmd/deploy/sf~svn~relocate.bat -text
 projects/svncmd/deploy/sf~svn~update.bat -text
 projects/svncmd/svncmd/__init__.bat -text
+projects/svncmd/svncmd/bb~git~compare_commits.bat -text
 projects/svncmd/svncmd/bb~git~fetch.bat -text
 projects/svncmd/svncmd/bb~git~init.bat -text
 projects/svncmd/svncmd/bb~git~pull.bat -text
@@ -46,6 +51,7 @@ projects/svncmd/svncmd/bb~git~reset.bat -text
 projects/svncmd/svncmd/config.vars.in -text
 projects/svncmd/svncmd/config.yaml.in -text
 projects/svncmd/svncmd/configure.bat -text
+projects/svncmd/svncmd/gh~git~compare_commits.bat -text
 projects/svncmd/svncmd/gh~git~fetch.bat -text
 projects/svncmd/svncmd/gh~git~init.bat -text
 projects/svncmd/svncmd/gh~git~pull.bat -text
