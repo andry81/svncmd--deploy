@@ -1,5 +1,4 @@
 * text=auto !eol
-projects/svncmd/README_EN.txt -text
 projects/svncmd/Scripts/__init__.bat -text
 projects/svncmd/Scripts/config.vars.in -text
 projects/svncmd/Scripts/config.yaml.in -text
