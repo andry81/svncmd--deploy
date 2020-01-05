@@ -1,10 +1,10 @@
-# <scm_token>|<branch_type>|<remote_name>|<parent_remote_name>|<git_reporoot>|<svn_reporoot>|<git_local_branch>|<git_remote_branch>|<parent_git_path_prefix>|<svn_path_prefix>|<git_svn_init_cmdline>|<git_remote_add_cmdline>
-GIT|root|origin|.|${SVNCMD_ROOT.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.
-GIT|subtree|scripts|origin|${SVNCMD_SCRIPTS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|trunk/Scripts|.|.
-GIT|subtree|tools|origin|${SVNCMD_TOOLS.${SCM_TOKEN}.ORIGIN}|CONTOOLS_ROOT.SVN.REPOROOT|master|master|Tools|trunk/Scripts/Tools|.|.
-GIT|subtree|external-tools|origin|${EXTERNAL_TOOLS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|trunk/ToolsExternal|.|.
+# <scm_token>|<branch_type>|<remote_name>|<parent_remote_name>|<git_reporoot>|<svn_reporoot>|<git_local_branch>|<git_remote_branch>|<parent_git_path_prefix>|<git_path_prefix>|<svn_path_prefix>|<git_svn_init_cmdline>|<git_remote_add_cmdline>
+GIT|root|origin|.|${SVNCMD_ROOT.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|.|trunk|--stdlayout|.
+GIT|subtree|scripts|origin|${SVNCMD_SCRIPTS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|.|trunk/Scripts|.|.
+GIT|subtree|tools|origin|${SVNCMD_TOOLS.${SCM_TOKEN}.ORIGIN}|CONTOOLS_ROOT.SVN.REPOROOT|master|master|Tools|.|trunk/Scripts/Tools|.|.
+GIT|subtree|external-tools|origin|${EXTERNAL_TOOLS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|.|trunk/ToolsExternal|.|.
 
-GIT2|root|origin|.|${SVNCMD_ROOT.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|trunk|--stdlayout|.
-GIT2|subtree|scripts|origin|${SVNCMD_SCRIPTS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|trunk/Scripts|.|.
-GIT2|subtree|tools|origin|${SVNCMD_TOOLS.${SCM_TOKEN}.ORIGIN}|${CONTOOLS_ROOT.SVN.REPOROOT}|master|master|Tools|trunk/Scripts/Tools|.|.
-GIT2|subtree|external-tools|origin|${EXTERNAL_TOOLS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|trunk/ToolsExternal|.|.
+GIT2|root|origin|.|${SVNCMD_ROOT.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|trunk|trunk|.|.|trunk|--stdlayout|.
+GIT2|subtree|scripts|origin|${SVNCMD_SCRIPTS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|Scripts|.|trunk/Scripts|.|.
+GIT2|subtree|tools|origin|${SVNCMD_TOOLS.${SCM_TOKEN}.ORIGIN}|CONTOOLS_ROOT.SVN.REPOROOT|master|master|Tools|.|trunk/Scripts/Tools|.|.
+GIT2|subtree|external-tools|origin|${EXTERNAL_TOOLS.${SCM_TOKEN}.ORIGIN}|${SVNCMD_ROOT.SVN.REPOROOT}|master|master|ToolsExternal|.|trunk/ToolsExternal|.|.

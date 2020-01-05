@@ -1,20 +1,12 @@
 * text=auto !eol
-projects/svncmd/Scripts/__init__.bat -text
 projects/svncmd/Scripts/config.vars.in -text
 projects/svncmd/Scripts/config.yaml.in -text
-projects/svncmd/Scripts/configure.bat -text
 projects/svncmd/Scripts/git_repos.lst.in -text
-projects/svncmd/__init__.bat -text
 projects/svncmd/config.vars.in -text
 projects/svncmd/config.yaml.in -text
-projects/svncmd/configure.bat -text
-projects/svncmd/deploy/__init__.bat -text
 projects/svncmd/deploy/config.vars.in -text
 projects/svncmd/deploy/config.yaml.in -text
-projects/svncmd/deploy/configure.bat -text
 projects/svncmd/deploy/git_repos.lst.in -text
-projects/svncmd/svncmd/__init__.bat -text
 projects/svncmd/svncmd/config.vars.in -text
 projects/svncmd/svncmd/config.yaml.in -text
-projects/svncmd/svncmd/configure.bat -text
 projects/svncmd/svncmd/git_repos.lst.in -text
